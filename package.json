@@ -1,0 +1,40 @@
+{
+  "name": "bible-verse",
+  "version": "0.0.0",
+  "description": "Helps to get the content of a bible passage",
+  "strapi": {
+    "name": "Bible verse",
+    "description": "Helps to get the content of a bible passage",
+    "kind": "plugin"
+  },
+  "dependencies": {
+    "@strapi/icons": "^1.3.1",
+    "chapter-and-verse": "^3.0.4",
+    "react-autocomplete-hint": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "4.6.3"
+  },
+  "author": {
+    "name": "Busola Okeowo",
+    "email": "busolaokemoney@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "Busola Okeowo",
+      "email": "busolaokemoney@gmail.com"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "develop": "tsc -w",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.1.7"
+  },
+  "license": "MIT"
+}
