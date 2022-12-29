@@ -1,5 +1,5 @@
 {
-  "name": "bible-verse",
+  "name": "bible-verse-picker",
   "version": "0.0.0",
   "description": "Helps to get the content of a bible passage",
   "strapi": {
@@ -15,15 +15,9 @@
   "devDependencies": {
     "typescript": "4.6.3"
   },
-  "author": {
-    "name": "Busola Okeowo",
-    "email": "busolaokemoney@gmail.com"
-  },
+  "author": "Busola Okeowo <busolaokemoney@gmail.com>",
   "maintainers": [
-    {
-      "name": "Busola Okeowo",
-      "email": "busolaokemoney@gmail.com"
-    }
+    "Busola Okeowo <busolaokemoney@gmail.com>"
   ],
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
@@ -36,5 +30,18 @@
   "peerDependencies": {
     "@strapi/strapi": "^4.1.7"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "strapi-admin.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/she-WritesCode/bible-verse-picker.git"
+  },
+  "keywords": [
+    "Strapi",
+    "plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/she-WritesCode/bible-verse-picker/issues"
+  },
+  "homepage": "https://github.com/she-WritesCode/bible-verse-picker#readme"
 }
