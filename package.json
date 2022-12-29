@@ -1,6 +1,6 @@
 {
 	"name": "bible-verse-picker",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Helps to get the content of a bible passage",
 	"strapi": {
 		"name": "bible-verse-picker",
